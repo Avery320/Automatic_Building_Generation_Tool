@@ -1,0 +1,23 @@
+# ignore all rhino and grasshopper files
+*.3dm
+*.bak
+*.gh
+*.ghx
+
+# ---------------------------------------------------------------
+# don't ignore .3dm and .gh in the "file" 
+!file/*
+# ---------------------------------------------------------------
+
+# ignore persnal files
+working/
+
+# mac and win stuff
+.DS_Store
+Thumbs.db
+
+# VScode stuff
+.vscode
+
+# log fiels
+*.log
