@@ -1,4 +1,4 @@
-# Automatic_Building_Generation_Tool# Automatic_Building_Generation_Tool
+# Automatic_Building_Generation_Tool
 
 - __author__ = ['AveryTsai']
 - __email__ = ['n76124052@gs.ncku.edu.tw']
