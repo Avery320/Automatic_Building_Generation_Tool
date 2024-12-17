@@ -1,15 +1,19 @@
-# ignore all rhino and grasshopper files
-*.3dm
+# Rhino backups
+*.3dm.rhl
+*.3dmbak
+*.3dm.bak
 *.bak
-*.gh
+
+# Rhino autosave files
+Autosave*.3dm
+
+# Grasshopper temporary and autosave files
+*.gh.autosave
+*.ghx.autosave
+*.ghbackup
 *.ghx
 
-# ---------------------------------------------------------------
-# don't ignore .3dm and .gh in the "file" 
-!file/*
-# ---------------------------------------------------------------
-
-# ignore persnal files
+# ignore working file
 working/
 
 # mac and win stuff
